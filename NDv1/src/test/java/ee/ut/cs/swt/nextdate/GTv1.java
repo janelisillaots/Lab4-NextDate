@@ -147,7 +147,8 @@ public class GTv1 {
 
 	@Test(timeout = 4000)
 	public void testCreatesNextDate11() throws Throwable {
-	    NextDate nextDate0 = new NextDate(1, 1, 1);
+	    NextDate nextDate0 =
+				new NextDate(1, 1, 1);
 	    String string0 = nextDate0.run(1, 1, 2000);
 	    assertEquals("1/2/2000", string0);
 	}
